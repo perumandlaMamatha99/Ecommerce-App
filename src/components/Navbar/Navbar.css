@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    background-color: cadetblue;
+    color:white;
+    font-size: 35px;
+    padding:0 60px;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+
+.login-cart{
+    display: flex;
+}
+.cart::before{
+    content: "";
+    padding-left:20px;
+}
+.login-cart  a{
+    text-decoration: none;
+    color:white;
+}

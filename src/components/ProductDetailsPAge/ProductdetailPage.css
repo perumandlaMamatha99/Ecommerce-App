@@ -1,0 +1,15 @@
+.compoents{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap:33px;
+    position: relative;
+    padding:2.5rem
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+

@@ -1,0 +1,22 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    /* background-color: greenyellow; */
+    position: relative;
+}
+.login-form{
+    width:25%;
+    height:350px;
+    background-color: white;
+    text-align: center;
+  
+}
+.login-btn{
+    width: 58%;
+}
+.alert{
+    position: absolute;
+    left:40%;
+}
